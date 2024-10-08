@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3902011-712e-46bd-ac83-38d82ca8d0a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary Trees.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CombinedExercises.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MergeSortedArrays.java" afterDir="false" />
+    <list default="true" id="d3902011-712e-46bd-ac83-38d82ca8d0a3" name="Changes" comment="Week 5: Try it out | DSA">
+      <change afterPath="$PROJECT_DIR$/src/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pseudoCode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -43,6 +40,7 @@
   "keyToString": {
     "Application.BinaryTree.executor": "Run",
     "Application.CombinedExercises.executor": "Run",
+    "Application.Exercise.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MergeSortedArrays.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -55,6 +53,20 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise" />
+      <module name="Binary Trees" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Exercise" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,7 +76,28 @@
       <option name="presentableId" value="Default" />
       <updated>1728379113880</updated>
     </task>
+    <task id="LOCAL-00001" summary="Week 5: Try it out | DSA">
+      <option name="closed" value="true" />
+      <created>1728381522543</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728381522543</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Week 5: Try it out | DSA">
+      <option name="closed" value="true" />
+      <created>1728381710967</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728381710967</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Week 5: Try it out | DSA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 5: Try it out | DSA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

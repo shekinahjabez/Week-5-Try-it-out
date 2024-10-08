@@ -1,0 +1,81 @@
+Exercise 1: Counting Nodes in a Binary Tree
+Function countNodes(root)
+    // Input: root node of the binary tree
+    // Output: total number of nodes in the tree
+    // Variable: root (to keep track of the current node)
+
+    If root is null
+        Return 0
+    End If
+
+    // Recursive case: count the current node and the nodes in the left and right subtrees
+    leftCount = countNodes(root.left)
+    rightCount = countNodes(root.right)
+
+    // Return the total count
+    Return 1 + leftCount + rightCount
+End Function
+
+Exercise 2: Checking if a Binary Tree is Balanced
+Function isBalanced(root)
+    // Input: root node of the binary tree
+    // Output: true if the tree is balanced, false otherwise
+    // Variable: root (to track the current node)
+
+    Function height(node)
+        If node is null
+            Return 0
+        End If
+
+        leftHeight = height(node.left)
+        rightHeight = height(node.right)
+
+        // If left or right subtree is unbalanced, propagate -1 upwards
+        If leftHeight == -1 OR rightHeight == -1 OR abs(leftHeight - rightHeight) > 1
+            Return -1
+        End If
+
+        // Return the height of the tree
+        Return 1 + max(leftHeight, rightHeight)
+    End Function
+
+    Return height(root) != -1
+End Function
+
+Exercise 3:Merge Two Sorted Arrays
+Function mergeArrays(arr1, arr2)
+    // Input: Two sorted arrays arr1 and arr2
+    // Output: A single sorted array containing all elements of arr1 and arr2
+    // Variables: i (index for arr1), j (index for arr2), mergedArray (the resulting array)
+
+    // Initialize variables
+    i = 0        // Index for arr1
+    j = 0        // Index for arr2
+    mergedArray = []   // Resulting merged array
+
+    // Loop through both arrays until one is exhausted
+    While i < length(arr1) AND j < length(arr2)
+        If arr1[i] <= arr2[j]
+            Add arr1[i] to mergedArray
+            Increment i
+        Else
+            Add arr2[j] to mergedArray
+            Increment j
+        End If
+    End While
+
+    // Add remaining elements from arr1 (if any)
+    While i < length(arr1)
+        Add arr1[i] to mergedArray
+        Increment i
+    End While
+
+    // Add remaining elements from arr2 (if any)
+    While j < length(arr2)
+        Add arr2[j] to mergedArray
+        Increment j
+    End While
+
+    // Return the merged sorted array
+    Return mergedArray
+End Function
